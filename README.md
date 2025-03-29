@@ -46,13 +46,19 @@ Interfaces can define **static utility methods** that are accessed via the inter
 - Static methods **cannot be overridden** by implementing classes.
 - Helps in organizing helper methods logically within interfaces.
 
+### 📌 Optional Class  
+The `Optional` class helps **eliminate null checks** by providing a wrapper around potentially null values.
+
+- Prevents `NullPointerException` by enforcing explicit handling.
+- Supports methods like `ofNullable()`, `orElse()`, `ifPresentOrElse()`, and `map()`.
+- Useful in database queries, API responses, and method return values.
+
 ---
 
 ## ▶️ Upcoming Java 8 Features (To Be Added)
 
 Additional features from Java 8 will be covered in upcoming updates. Each will include **unique examples**, **Javadoc comments**, and **separate interface and class files** for clarity and maintainability:
 
-- **Optional Class**  
 - **forEach() Method**  
 - **Date and Time API**
 
